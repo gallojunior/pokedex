@@ -1,0 +1,112 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.btn-Aço {
+    background-color: #aab;
+}
+
+.btn-Água {
+    background-color: #39f;
+}
+
+.btn-Dragão {
+    background-color: #76e;
+}
+
+.btn-Elétrico {
+    background-color: #fc3;
+}
+
+.btn-Fada {
+    background-color: #e9e;
+}
+
+.btn-Fantasma {
+    background-color: #66b;
+}
+
+.btn-Fogo {
+    background-color: #f42;
+}
+
+.btn-Gelo {
+    background-color: #6cf;
+}
+
+.btn-Inseto {
+    background-color: #ab6;
+}
+
+.btn-Lutador {
+    background-color: #b54;
+}
+
+.btn-Normal {
+    background-color: #aa9;
+}
+
+.btn-Pedra {
+    background-color: #ba6;
+}
+
+.btn-Planta {
+    background-color: #7c5;
+}
+
+.btn-Psíquico {
+    background-color: #f59;
+}
+
+.btn-Sombrio {
+    background-color: #754;
+}
+
+.btn-Terrestre {
+    background-color: #db5;
+}
+
+.btn-Venenoso {
+    background-color: #a59;
+}
+
+.btn-Voador {
+    background-color: #89f;
+}
+
+.card:hover {
+    transform: scale(1.10);
+    transition: 0.6s;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.bi-play-circle {
+    cursor: pointer;
+}
+
+.bi-play-circle:hover {
+    animation: pulse 2s infinite;
+}
+
+.btn-10 {
+    width: 180px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 600px) {
+    .mt-sm {
+        margin-top: 30px;
+    }
+}
